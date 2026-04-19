@@ -17,15 +17,15 @@ A full-stack expense tracking application built with Flutter and Go.
 - Clean architecture separating frontend, backend and data layers
 
 ## Project Structure
-expense_tracker/     # Flutter frontend
-lib/
-models/          # Data models
-services/        # API communication layer
-screens/         # UI screens
-expense_api/         # Go backend
-main.go            # Server setup and routes
-database.go        # Database initialization
-handlers.go        # CRUD request handlers
+expense-tracker/
+  lib/
+    models/          # Data models
+    services/        # API communication layer
+    screens/         # UI screens
+  backend/
+    main.go          # Server setup and routes
+    database.go      # Database initialization
+    handlers.go      # CRUD request handlers
 
 ## Running Locally
 
